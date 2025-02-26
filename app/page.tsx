@@ -1,12 +1,22 @@
-import React from 'react'
-import Header from '../components/Header'
+import React from "react";
+import Header from "../components/header";
 
-const HomePage = () => {
+export default function HomePage() {
   return (
-    <div className='container'>
-      <Header/>
+    <div className="container mx-auto">
+      <Header />
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+      <h1 className="text-8xl">fghjkllllllsfjsdfkj</h1>
+          
     </div>
-  )
+  );
 }
-
-export default HomePage

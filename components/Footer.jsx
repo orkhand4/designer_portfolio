@@ -1,27 +1,60 @@
+import Link from "next/link";
 import React from "react";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer className="text-center py-10 bg-[#EDEDED] text-[#666666]">
+    <footer className=" w-full h-40 bg-[#EDEDED] flex flex-col items-center gap-3 pt-10">
       <div>
-        <p>
-          © Copyright 2025 | {""}
-          <a href="https://kaliumtheme.com/" target="_blank" className="underline">
+        <h4 className="flex gap-2">
+          <span>© Copyright 2025 | </span>
+          <Link href="#" className="text-[#e09a0e] underline">
             Kalium Theme
-          </a>{" "}
-          by{" "}
-          <a href="https://laborator.co" target="_blank" className="underline">
+          </Link>
+          <span>by</span>
+          <Link href="#" className="text-[#e09a0e] underline">
             Laborator
-          </a>
-        </p>
+          </Link>
+        </h4>
       </div>
-      <div className="flex justify-center space-x-4 mt-4">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter X</a>
-        <a href="#">Instagram</a>
-        <a href="#">Dribbble</a>
-        <a href="#">YouTube</a>
+      <div className="flex space-x-3">
+        <Link
+          href="#"
+          className="text-[#e09a0e] hover:text-blue-950 transition-all group"
+        >
+          Facebook
+          <div className="bg-[#c08c23] h-[1px] w-0 group-hover:w-full transition-all duration-300"></div>
+        </Link>{" "}
+        <Link
+          href="#"
+          className="text-[#e09a0e] hover:text-blue-950 transition-all group"
+        >
+          Twitter X
+          <div className="bg-[#c08c23] h-[1px] w-0 group-hover:w-full transition-all duration-300"></div>
+        </Link>{" "}
+        <Link
+          href="#"
+          className="text-[#e09a0e] hover:text-blue-950 transition-all group"
+        >
+          Instagram
+          <div className="bg-[#c08c23] h-[1px] w-0 group-hover:w-full transition-all duration-300"></div>
+        </Link>{" "}
+        <Link
+          href="#"
+          className="text-[#e09a0e] hover:text-blue-950 transition-all group"
+        >
+          Dribbble
+          <div className="bg-[#c08c23] h-[1px] w-0 group-hover:w-full transition-all duration-300"></div>
+        </Link>{" "}
+        <Link
+          href="#"
+          className="text-[#e09a0e] hover:text-blue-950 transition-all group"
+        >
+          YouTube
+          <div className="bg-[#c08c23] h-[1px] w-0 group-hover:w-full transition-all duration-300"></div>
+        </Link>
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
