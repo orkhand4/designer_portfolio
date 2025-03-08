@@ -23,7 +23,7 @@ const Footer = () => {
         >
           Facebook
           <div className="bg-[#c08c23] h-[1px] w-0 group-hover:w-full transition-all duration-300"></div>
-        </Link>{" "}\\
+        </Link>{" "}
         <Link
           href="#"
           className="text-[#e09a0e] hover:text-blue-950 transition-all group"
